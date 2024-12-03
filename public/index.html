@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test sample</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="test-title">Test wiedzy o zwierzętach</h1>
+    </div>
+    <section>
+        <button id="start" style="cursor: pointer;">Zacznij</button>
+        <h2><span id="question"></span></h2>
+        <div id="answers"></div>
+        <div id="navigation" style="display: none; padding: 20px; margin: 5px">
+            <button id="back" style="cursor: pointer;">Poprzednie</button>
+            <button id="next" style="cursor: pointer;">Następne</button>
+            <button id="end" style="cursor: pointer;">Zakończ</button>
+            <button id="home" style="cursor: pointer;">Powrót</button>
+        </div>
+        <h4>Czas: <span id="question-time">0</span></h4>
+        <h5>Czas całkowity: <span id="total-time">0</span></h5>
+
+        <div id="stats"></div>
+    </section>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
